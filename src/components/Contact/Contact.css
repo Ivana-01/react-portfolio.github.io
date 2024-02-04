@@ -1,0 +1,56 @@
+.contactTitle{
+    font-size: 3rem;
+    color: aqua;
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+.sub{
+    font-size: 1.5rem;
+    padding: 2rem 0 0 0;
+    text-align: center;
+}
+.LinkedInLogo{
+    width: 48px;
+    padding-left: 1rem;
+}
+.Linked{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.form{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nameInput, .email, .msg{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: rgb(17, 17, 17);
+    font-weight: 600;
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    width: 50%;
+}
+.submit{
+    background-color: aqua;
+    color: rgb(17, 17, 17);
+    font-weight: 600;
+    margin: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    transition: 0.3s;
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: rgb(0, 172, 172);
+    color: rgb(15, 15, 15);
+}
+.submit:active{
+    background-color: rgb(0, 130, 130);
+}
