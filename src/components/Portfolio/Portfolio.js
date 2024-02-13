@@ -5,7 +5,7 @@ import weatherJs from '../../img/weather-app.png';
 import stopwatchJs from '../../img/StopwatchJs.png';
 import weatherR from '../../img/weather-app-react.png';
 import movieR from '../../img/movie-app.png';
-import sasori from '../../img/';
+import sasori from '../../img/sasori.png';
 
 const Portfolio = () => {
   return (
