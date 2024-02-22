@@ -7,12 +7,13 @@
 .Ptitle{
     color: rgb(30, 30, 30);
     text-align: center;
-    margin: 4rem;
+    margin: 3rem 0 1rem 0;
     padding: 2rem;
     font-size: 3rem;
 }
 .Psubtitle{
-    padding: 0 4rem;
+    padding: 5rem;
+    padding-bottom: 0;
     color: rgb(17, 17, 17);
     text-decoration: underline;
 }
@@ -22,8 +23,10 @@
     justify-content: center;
     margin: 3rem;
 }
-.project{
+.card{
     width: 25%;
+}
+.project{
     transition: 0.3s;
 }
 .projectImg{
@@ -42,6 +45,9 @@
     transition: all .5s;
 }
 .projectRepo{
+    position: relative;
+    z-index: 5;
+    margin: 25%;
     background-color: rgb(30, 30, 30);
     color: white;
     text-decoration: none;
@@ -49,11 +55,47 @@
     text-align: center;
     border-radius: 1rem;
 }
+.projectRepo:hover{
+    background-color: rgb(17, 17, 17);
+}
 .mernProject{
-    margin: 3rem;
+    margin: 4rem;
+    padding: 2%;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 90%;
+    background-color: rgb(50, 50, 50);
 }
 .mernProject > h3{
     color: white;
+}
+.mernProject > a{
+    margin: 1rem;
+}
+.mernImgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin: 0 10%;
+}
+.mernImgDivCol2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1rem;
+}
+.mernImg2{
+    display: block;
+    height: 140px;
+    border-radius: 1rem;
+}
+.mernImg{
+    height: 300px;
+    border-radius: 1rem;
 }
 @media screen and (max-width: 860px){
     .project, .projectImg{

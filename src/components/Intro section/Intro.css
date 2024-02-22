@@ -40,7 +40,7 @@
     background-color: rgba(31, 31, 31, 0.596);
 }
 .introBtn{
-    border: solid 2px aqua;
+    border: solid 2px rgb(0, 255, 255);
     border-radius: 1rem;
     width: 15rem;
     padding: 1rem;
@@ -54,7 +54,7 @@
     cursor: pointer;
     transition: all .3s ease-in-out;
     background: rgb(0, 255, 255);
-    border: aqua solid 1px;
+    border: aqua solid 2px;
     color: rgb(30, 30, 30);
 }
 .introBtn:active{

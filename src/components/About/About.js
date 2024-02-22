@@ -5,13 +5,16 @@ import css from '../../img/css.png';
 import js from '../../img/js.png'
 import git from '../../img/git.png'
 import react from '../../img/react.png'
+import mongodb from '../../img/mongodb.png'
+import node from '../../img/nodejs.png'
+import express from '../../img/express.png'
 
 const About = () => {
   return (
     <section id='about'>
         <div className='aboutMe'>
             <h1 className='aboutTitle'>About me</h1>
-            <p className='aboutPara'>Goal-oriented and ambitious Frontend Developer Intern with solid foundation of <strong>HTML, CSS, JavaScript and React.</strong> Demonstrated proficiency in writing visually appealing and responsive web interfaces. Eager to apply academic knowledge in a practical, real-world projects and gain experience in frontend development. Seeking a position opportunity to further enhance skills with innovative collaboration environment.</p>
+            <p className='aboutPara'>Goal-oriented and ambitious Full stack Developer Intern with solid foundation of <strong>MERN stack.</strong> Demonstrated proficiency in writing visually appealing and responsive web interfaces. Eager to apply academic knowledge in a practical, real-world projects and gain experience in frontend development. Seeking a position opportunity to further enhance skills with innovative collaboration environment.</p>
         </div>
         <div className='codeSkill'>
             <h1 className='title'>My skills</h1>
@@ -34,8 +37,20 @@ const About = () => {
                     <span className='blockTitle'>Version control</span>
                 </div>
                 <div className='block'>
+                    <img className='blockImg' src={ mongodb } alt='mongoDB'/>
+                    <span className='blockTitle'>MongoDB</span>
+                </div>
+                <div className='block'>
+                    <img className='blockImg' src={ express } alt='Express.js'/>
+                    <span className='blockTitle'>Express.js</span>
+                </div>
+                <div className='block'>
                     <img className='blockImg' src={ react } alt='ReactJS'/>
                     <span className='blockTitle'>ReactJS</span>
+                </div>
+                <div className='block'>
+                    <img className='blockImg' src={ node } alt='Node.js'/>
+                    <span className='blockTitle'>Node.js</span>
                 </div>
             </div>
         </div>

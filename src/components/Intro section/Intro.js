@@ -8,7 +8,8 @@ const Intro = () => {
         <div className='introText'>
             <span className='hello'>Hello, my name is<br/></span>
             <span className='name'>Ivana Stojadinović<br/></span>
-            <span className='about'>Frontend developer</span>
+            <span className='about'>Full stack developer</span>
+            <span className='about'>- MERN stack -</span>
             <Link>
                 <button className='introBtn' onClick={()=>{document.getElementById('contact').scrollIntoView({behavior: 'smooth'});}}>Contact me</button>
             </Link>
