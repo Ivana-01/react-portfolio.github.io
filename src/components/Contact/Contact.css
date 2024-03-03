@@ -26,7 +26,10 @@
     justify-content: center;
     flex-direction: column;
 }
-.nameInput, .email, .msg{
+.name, .email, .msg{
+    width: 70%;
+}
+.nameInput, .emailInput, .msgInput{
     background-color: rgba(255, 255, 255, 0.2);
     color: rgb(17, 17, 17);
     font-weight: 600;
@@ -34,7 +37,7 @@
     padding: 1rem;
     border: none;
     border-radius: 1rem;
-    width: 50%;
+    width: 100%;
 }
 .submit{
     background-color: aqua;
