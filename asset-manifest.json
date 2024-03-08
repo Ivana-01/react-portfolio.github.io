@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/react-portfolio.github.io/static/css/main.03203d44.css",
-    "main.js": "/react-portfolio.github.io/static/js/main.dfba8b34.js",
+    "main.css": "/react-portfolio.github.io/static/css/main.9f2f1ae1.css",
+    "main.js": "/react-portfolio.github.io/static/js/main.e0e6d8b4.js",
     "static/media/movie-app.png": "/react-portfolio.github.io/static/media/movie-app.473efa51e52813a8a523.png",
     "static/media/ContactIcon.gif": "/react-portfolio.github.io/static/media/ContactIcon.44dac7703065eac62622.gif",
     "static/media/sasori.png": "/react-portfolio.github.io/static/media/sasori.074d833c626227d015a5.png",
     "static/media/me.png": "/react-portfolio.github.io/static/media/me.a820383246878644a660.png",
+    "static/media/log.png": "/react-portfolio.github.io/static/media/log.edbf1c96d990f47caac2.png",
+    "static/media/reg.png": "/react-portfolio.github.io/static/media/reg.b1a7b8843bfb4c29ccc4.png",
     "static/media/books-bookstore.png": "/react-portfolio.github.io/static/media/books-bookstore.1ee6b179c4c299e0f462.png",
     "static/media/book-bookstore.png": "/react-portfolio.github.io/static/media/book-bookstore.e8849933569b94884cbf.png",
     "static/media/clockJs.png": "/react-portfolio.github.io/static/media/clockJs.b735950993704cfd552c.png",
@@ -13,6 +15,7 @@
     "static/media/weather-app-react.png": "/react-portfolio.github.io/static/media/weather-app-react.3ece2e47d5cd6a85ce76.png",
     "static/media/addbook-bookstore.png": "/react-portfolio.github.io/static/media/addbook-bookstore.2388040769cd19232c8f.png",
     "static/media/weather-app.png": "/react-portfolio.github.io/static/media/weather-app.732a9778bc69331ef275.png",
+    "static/media/app.png": "/react-portfolio.github.io/static/media/app.c2dbee2c48c915dad6d5.png",
     "static/media/react.png": "/react-portfolio.github.io/static/media/react.86c8d9eba03e29814d2a.png",
     "static/media/StopwatchJs.png": "/react-portfolio.github.io/static/media/StopwatchJs.14d598806e108ea79486.png",
     "static/media/nodejs.png": "/react-portfolio.github.io/static/media/nodejs.03f2f7bb2230fde2e51d.png",
@@ -24,11 +27,11 @@
     "static/media/linkedin.png": "/react-portfolio.github.io/static/media/linkedin.f249b38224ca41a0b909.png",
     "static/media/js.png": "/react-portfolio.github.io/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/react-portfolio.github.io/index.html",
-    "main.03203d44.css.map": "/react-portfolio.github.io/static/css/main.03203d44.css.map",
-    "main.dfba8b34.js.map": "/react-portfolio.github.io/static/js/main.dfba8b34.js.map"
+    "main.9f2f1ae1.css.map": "/react-portfolio.github.io/static/css/main.9f2f1ae1.css.map",
+    "main.e0e6d8b4.js.map": "/react-portfolio.github.io/static/js/main.e0e6d8b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.03203d44.css",
-    "static/js/main.dfba8b34.js"
+    "static/css/main.9f2f1ae1.css",
+    "static/js/main.e0e6d8b4.js"
   ]
 }
