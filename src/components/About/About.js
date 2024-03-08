@@ -15,7 +15,7 @@ const About = () => {
     <section id='about'>
         <div className='aboutMe'>
             <AnimatedOnScroll animationIn="fadeIn" animationOut="fadeOut" className='aboutTitle'>About me</AnimatedOnScroll>
-            <AnimatedOnScroll animationIn="fadeIn" animationInDelay='500' animationOut="fadeOut" className='aboutPara'>Goal-oriented and ambitious Full stack Developer Intern with solid foundation of <strong>MERN stack.</strong> Demonstrated proficiency in writing visually appealing and responsive web interfaces. Eager to apply academic knowledge in a practical, real-world projects and gain experience in frontend development. Seeking a position opportunity to further enhance skills with innovative collaboration environment.</AnimatedOnScroll>
+            <AnimatedOnScroll animationIn="fadeIn" animationInDelay='500' animationOut="fadeOut" className='aboutPara'>Goal-oriented and ambitious Full stack Developer Intern with solid foundation of <strong>MERN stack.</strong> Demonstrated proficiency in writing visually appealing and responsive web interfaces. Eager to apply academic knowledge in a practical, real-world projects and gain work experience in fullstack development. Seeking a position opportunity to further enhance skills with innovative collaboration environment.</AnimatedOnScroll>
         </div>
         <div className='codeSkill'>
             <h1 className='title'>My skills</h1>
