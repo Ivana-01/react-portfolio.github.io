@@ -9,6 +9,9 @@ import sasori from '../../img/sasori.png';
 import books from '../../img/books-bookstore.png';
 import book from '../../img/book-bookstore.png';
 import addbook from '../../img/addbook-bookstore.png';
+import reg from '../../img/reg.png';
+import log from '../../img/log.png';
+import app from '../../img/app.png';
 import { AnimatedOnScroll } from 'react-animated-css-onscroll';
 
 
@@ -28,6 +31,19 @@ const Portfolio = () => {
               <div className='mernImgDivCol2'>
                 <img src={ book } alt='index page' className='mernImg2'/>
                 <img src={ addbook } alt='index page' className='mernImg2'/>
+              </div>
+            </AnimatedOnScroll>
+          </AnimatedOnScroll>
+          <AnimatedOnScroll animationIn="fadeIn" animationOut="fadeOut" className='mernProject'>
+            <AnimatedOnScroll animationIn="fadeIn" animationInDelay='500' animationOut="fadeOut">Chat App project:</AnimatedOnScroll>
+            <AnimatedOnScroll animationIn="fadeIn" animationInDelay='1000' animationOut="fadeOut" className='projectRepo'>
+              <a href='https://github.com/Ivana-01/mern-chat-app/' target='_blank'>GitHub Repo</a>
+            </AnimatedOnScroll>
+            <AnimatedOnScroll animationIn="fadeIn" animationInDelay='2000' animationOut="fadeOut" className='mernImgDiv'>
+              <img src={ app } alt='index page' className='mern2Img'/>
+              <div className='mernImgDivCol2'>
+                <img src={ log } alt='index page' className='mern2Img2'/>
+                <img src={ reg } alt='index page' className='mern2Img2'/>
               </div>
             </AnimatedOnScroll>
           </AnimatedOnScroll>

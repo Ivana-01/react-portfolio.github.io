@@ -99,10 +99,19 @@
     height: 300px;
     border-radius: 1rem;
 }
-.mernImg, .mernImg2 {
+.mern2Img{
+    height: 320px;
+    border-radius: 1rem;
+}
+.mern2Img2{
+    height: 150px;
+    border-radius: 1rem;
+    width: 200px;
+}
+.mernImg, .mernImg2, .mern2Img, .mern2Img2{
     transition: 0.3s;
 }
-.mernImg:hover, .mernImg2:hover{
+.mernImg:hover, .mernImg2:hover, .mern2Img:hover, .mern2Img2:hover{
     transform: scale(2);
 }
 @media screen and (max-width: 768px){
@@ -115,10 +124,16 @@
         margin: 2rem;
     }
     .mernImgDiv{
-        margin: 0 2%;
-        width: 90%;
+        margin: 0 1%;
+        width: 100%;
     }
-    .mernImg, .mernImg2{
+    .mernImg, .mern2Img{
+        width: 60%;
+    }
+    .mernImg2{
+        width: 100%;
+    }
+    .mern2Img2{
         width: 100%;
     }
 }
