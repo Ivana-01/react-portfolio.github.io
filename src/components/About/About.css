@@ -1,37 +1,51 @@
 #about{
-    text-align: center;
     overflow: hidden;
     transition: fade-in 1s ease-out;
     width: 100%;
+    text-align: center;
 }
 .aboutMe{
-    background-color: rgb(14, 14, 14);
+    background: linear-gradient(rgb(30, 30, 30) 30%, rgb(0, 132, 112));
     text-align: left;
     font-size: 24px;
     letter-spacing: 2px;
     padding: 5%;
-    width: 100%;
+    height: 70vh;
 }
 .aboutTitle{
-    font-size: 36px;
+    font-size: 50px;
     font-weight: 700;
-    margin-bottom: 8%;
+    color: rgb(0, 184, 154);
+    filter: drop-shadow(1px 1px 1px rgb(0, 134, 114));
+}
+.aboutTitle2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15%;
+    color: rgb(0,255, 195);
+    filter: drop-shadow(1px 1px 1px rgb(0, 184, 164));
+}
+.aboutPara{
+    font-weight: 500;
+    font-size: 20px;
 }
 .title{
-    margin: 4rem;
-    font-size: 3rem;
+        font-weight: 700;
+        font-size: 3rem;
+        color: rgb(30, 30, 30);
+        margin: 20% 0 10% 0;
+        filter: drop-shadow(2px 2px 3px);
 }
 .subtitle{
-    margin: 3rem;
     font-size: 2rem;
-    color: aqua;
-    text-decoration: underline;
+    margin-bottom: 5%;
 }
 .codeSkill{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: linear-gradient(rgb(0, 132, 112) 0%, transparent 40%);
 }
 .blocks{
     display: flex;
@@ -71,6 +85,7 @@
 }
 .listItem{
     margin: 10px;
+    font-size: large;
 }
 @media only screen and (max-width: 480px) {
     .aboutPara{
